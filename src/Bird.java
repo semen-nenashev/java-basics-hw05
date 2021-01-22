@@ -1,6 +1,6 @@
-public class Bird {
+public abstract class Bird {
 
-  public void Eat() {
+  public static void Eat(Object o) {
     System.out.println("Bird is eating!");
   }
 }
